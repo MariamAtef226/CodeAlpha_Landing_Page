@@ -1,0 +1,89 @@
+:root{
+  --dark-pink:#B93160;
+  --light-yellow:#FFF89C;
+  --light-pink:#d75281cc;
+  --trans-pink:#D7528111;
+  --dark-yellow:#f4c84d;
+  --dark:#19283f;
+  --trans-yellow:#fff89c9e;
+}
+
+body{
+  font-family: "Roboto", sans-serif;
+}
+
+.pourElle{
+    font-family:'Lobster', cursive;
+}
+
+.logo{
+  font-size:1.5rem;
+  color: var(--light-yellow);
+}
+
+.fa-spa{
+  color: var(--light-yellow);
+}
+
+/*NavBar Stylings*/
+
+.navbar{
+  background-color:var(--dark-pink);
+}
+
+.navbar .navbar-nav .nav-link{
+  color: var(--light-yellow);
+}
+
+.navbar .navbar-nav .nav-link:hover{
+  color:var(--dark-yellow);
+}
+.navbar .navbar-nav .nav-link.active{
+    color:var(--dark-yellow);
+}
+
+.navbar .navbar-toggler
+{
+  color: var(--light-yellow);
+  border-color: var(--light-yellow);
+}
+.navbar .navbar-toggler:focus{
+    box-shadow: none;
+}
+
+.navbar .navbar-toggler[aria-expanded="true"]{
+  background-color: var(--light-yellow);
+  color:var(--dark-pink);
+}
+
+.main-btn, .main-btn:active, .main-btn:focus{
+  background-color: var(--light-yellow);
+  color:var(--dark-pink);
+}
+.main-btn:hover, .main-btn:active, .main-btn:focus{
+  border-color:var(--light-yellow);
+  color:var(--light-yellow);
+  background-color:var(--dark-pink);
+}
+
+/*End NavBar stylings*/
+
+
+/*Start Landing Stylings*/
+
+.landing{
+  background-color:var(--dark-pink);
+  min-height:calc(85vh - 64px);
+  color:var(--light-yellow);
+}
+
+.landing h1{
+  font-size:3.3rem;
+}
+
+.landing p{
+  color:var(--trans-yellow);
+}
+
+/*End Landing Stylings*/
+
