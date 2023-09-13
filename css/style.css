@@ -119,9 +119,10 @@ transform: translateX(-50%);
 
 .fa-1,.fa-2,.fa-3,.fa-4{
 color:var(--trans-pink);
-/* opacity:20%; */
 font-size:12rem;
 }
+
+
 .iconHolder .icon{
 max-width:20%;
 }
@@ -182,18 +183,103 @@ max-width:70%;
   background-color:var(--trans-pink);
 }
 
+.aboutus .content p, .aboutus .content h6{
+  font-size: 0.8rem;
+}
 
+.tips img{
+  border-radius: 10px;
+  max-height: 545px;
+}
 
+.tips-section-header .icon{
+  width:15%;
+}
 
+.tip{
+position: relative;
+}
+
+.tip::after{
+  content: "";
+  color: black;
+  width: 40%;
+  height: 2.5px;
+  background-color: var(--dark-yellow);
+  position: absolute;
+  bottom: -30px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+@media (min-width:723px){
+  .aboutus .content p, .aboutus .content h6{
+    font-size: 1rem;
+  }
+
+  .tips-section-header .icon{
+    width:6%;
+  }
+
+}
 
 
 /*start about us*/
 
-.aboutus h4{
+.aboutus h4, .tip h4{
   color:Var(--dark-pink);
 }
 
-.aboutus p{
+.aboutus p, .tip p{
   color:Var(--light-pink);
 }
 /*end about us*/
+
+/* footer styling */
+
+.contact{
+  background-color: var(--dark-pink);
+}
+
+.name{
+  color:var(--dark);
+}
+
+.design{
+  color:var(--dark-yellow);
+}
+
+.fa-facebook{
+  color:#4267b2;
+}
+
+.fa-twitter{
+  color:#1c9ceb;
+}
+
+.fa-linkedin{
+  color:#0a63bc;
+}
+
+.fa-youtube{
+  color:red;
+}
+
+.title{
+  color:var(--light-yellow);
+}
+
+.socialmedia{
+  background-color:#fff89cdd;
+}
+
+.email-link{
+  overflow:hidden;
+  text-overflow: ellipsis;
+}
+
+.footer-link:hover{
+  color:var(--dark-yellow);
+}
+
+/* end of footer styling */
