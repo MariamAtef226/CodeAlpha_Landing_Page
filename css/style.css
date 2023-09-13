@@ -283,3 +283,16 @@ position: relative;
 }
 
 /* end of footer styling */
+
+
+/* contribute section */
+.contribute{
+  background-color:var(--dark-pink);
+  color:var(--light-yellow);
+}
+/* end of contribute section*/
+
+.void img{
+  width:245px;
+  margin-bottom:30px;
+}
